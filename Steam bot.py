@@ -70,7 +70,7 @@ async def jogo(ctx, *, nome):
         await ctx.send("❌ Jogo não encontrado!")
         return
 
-    # pegar até 5 resultados
+    
     lista = resultados[:5]
 
     mensagem = "🎮 Resultados encontrados:\n\n"
